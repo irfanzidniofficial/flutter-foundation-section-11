@@ -51,4 +51,8 @@ class ReviewsRobot {
     await enterReviewComment();
     await submitReview();
   }
+
+  void expectFindText(String s) {}
+
+  void expectFindUpdateReview() {}
 }
